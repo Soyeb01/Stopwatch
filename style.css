@@ -29,11 +29,27 @@ h1{
 }
 
 .vent>button{
+    background: rgba(255, 255, 255, 0.5);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.4);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(189, 184, 184, 0.8);
     cursor: pointer;
-    border:2px solid black;
     border-radius: 6px;
     margin: 3px;
     padding: 8px;
     width: 4em;
     font-size: 2rem;
+}
+
+@media screen and (max-width:600px) {
+    h1{
+        padding-top: 20%;
+        font-size: 2.5rem;
+    }
+
+    .vent{
+        flex-direction: column;
+        align-items: center;
+    }
 }
