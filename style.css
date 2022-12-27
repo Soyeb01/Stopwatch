@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    background: url(https://img.freepik.com/free-photo/vintage-clock_74190-5727.jpg?w=740&t=st=1672069701~exp=1672070301~hmac=1b803060d53197c1da8b01e0ab0e300bc8ca09fbb2119f98e8224ec3dc19aeab);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+
+h1{
+    text-align: center;
+    font-size: 3rem;
+    padding-top: 10%;
+}
+
+.watch,.vent{
+    display: flex;
+    font-size: 3rem;
+    justify-content: center;
+    margin-top: 2%;
+}
+
+.watch>p{
+    margin: 8px;
+}
+
+.vent>button{
+    cursor: pointer;
+    border:2px solid black;
+    border-radius: 6px;
+    margin: 3px;
+    padding: 8px;
+    width: 4em;
+    font-size: 2rem;
+}
