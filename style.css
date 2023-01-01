@@ -4,6 +4,7 @@
 }
 
 .main{
+    position:relative;
     background: url(https://img.freepik.com/free-photo/vintage-clock_74190-5727.jpg?w=740&t=st=1672069701~exp=1672070301~hmac=1b803060d53197c1da8b01e0ab0e300bc8ca09fbb2119f98e8224ec3dc19aeab);
     background-repeat: no-repeat;
     background-size: cover;
@@ -40,6 +41,14 @@ h1{
     padding: 8px;
     width: 4em;
     font-size: 2rem;
+}
+
+.att{
+    opacity: 0.3;
+    font-size: 8px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
 }
 
 @media screen and (max-width:600px) {
